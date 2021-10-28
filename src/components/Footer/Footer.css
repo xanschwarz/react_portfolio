@@ -1,0 +1,48 @@
+/* Set flex, color, and spacing properties for the footer and contained elements. */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: var(--darkest);
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 600px;
+}
+
+footer a,
+li {
+  color: var(--lightest);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--mid);
+}
+
+/* Following are the media queries for Responsive Design. Effort was made to only set or change necessary attributes.
+For the phone screen sizes a different layout was set to allow a better flow for the user. */
+/* Below is for large smartphones. Tablets (max-width: 992px) were found to be satisfactory with the full screen layout at this time. */
+@media screen and (max-width: 768px) {
+  footer ul {
+    font-size: 90%;
+    display: block;
+    text-align: center;
+    min-width: auto;
+  }
+
+  footer li {
+    margin: 1.5%;
+  }
+}
+
+/* Small smartphones */
+/* The layout from the large smartphones was found to be satisfactory for small smartphones as well. Sizes were adjusted to accommodate. */
+@media screen and (max-width: 576px) {
+  footer ul {
+    font-size: 80%;
+  }
+}

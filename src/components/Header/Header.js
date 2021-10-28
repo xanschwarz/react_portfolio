@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavBar.css';
+import './Header.css';
 
 // export default function NavTabs({ currentPage, handlePageChange }) {
 //   return (
@@ -44,7 +44,7 @@ import './NavBar.css';
 //   );
 // }
 
-export default function NavTabs({ currentPage, handlePageChange }) {
+export default function Header({ currentPage, handlePageChange }) {
   return (
     <header>
       <h1>Xander Schwarz</h1>

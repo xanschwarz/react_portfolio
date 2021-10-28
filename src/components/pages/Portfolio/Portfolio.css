@@ -91,7 +91,6 @@ a:hover {
 For the phone screen sizes a different layout was set to allow a better flow for the user. */
 /* Below is for large smartphones. Tablets (max-width: 992px) were found to be satisfactory with the full screen layout at this time. */
 @media screen and (max-width: 768px) {
-  /* The profile image and text sizes were decreased and the layout was changed to a more vertical flow to accomodate the smaller screen size. */
   #MyWork {
     flex-wrap: wrap;
     font-size: 95%;
