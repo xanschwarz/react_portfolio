@@ -1,0 +1,69 @@
+/* Properties for the image of myself that appears below the header. */
+.myImage {
+  text-align: center;
+  background-color: var(--darker);
+}
+
+.myImage img {
+  height: 600px;
+}
+
+/* Properties for the About Me and My Work sections. These include the flex, color, layout, as well as the
+divider between the aside and the interior section. */
+#AboutMe {
+  display: flex;
+}
+
+#AboutMe aside {
+  flex: 20%;
+  flex-wrap: wrap;
+  margin: 1%;
+  border-right-style: solid;
+  border-width: 4px;
+  border-color: var(--darkest);
+}
+
+#AboutMe section {
+  flex: 80%;
+  flex-wrap: wrap;
+  margin: 1%;
+}
+
+/* This is currently not used. May be used for resume link. */
+#AboutMe a {
+  color: var(--lightest);
+}
+
+/* This is currently not used. May be used for resume link. */
+#AboutMe a:hover {
+  color: var(--lighter);
+}
+
+/* Following are the media queries for Responsive Design. Effort was made to only set or change necessary attributes.
+For the phone screen sizes a different layout was set to allow a better flow for the user. */
+/* Below is for small and large smartphones. Tablets (max-width: 992px) were found to be satisfactory with the full screen layout at this time. */
+@media screen and (max-width: 768px) {
+  /* The profile image and text sizes were decreased and the layout was changed to a more vertical flow to accomodate the smaller screen size. */
+  .myImage img {
+    height: auto;
+    width: 60%;
+  }
+
+  #AboutMe {
+    flex-wrap: wrap;
+    font-size: 95%;
+  }
+
+  #AboutMe aside {
+    flex: 100%;
+    padding: 1%;
+    border-bottom-style: double;
+    border-right-style: none;
+    text-align: center;
+  }
+
+  #AboutMe section {
+    flex: 100%;
+    margin: 2%;
+  }
+}

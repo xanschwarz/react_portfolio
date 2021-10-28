@@ -1,0 +1,61 @@
+/* Resetting certain values. */
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+​h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+​input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+​ol,
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+/* Set color scheme for page. */
+:root {
+  --darkest: #0d1321;
+  --darker: #1d2d44;
+  --mid: #3e5c76;
+  --lighter: #748cab;
+  --lightest: #f0ebd8;
+}
+
+/* Set body properties. */
+body {
+  background-color: var(--mid);
+  color: var(--lightest);
+}

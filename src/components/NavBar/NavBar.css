@@ -1,0 +1,77 @@
+/* Set flex, color, and spacing properties for the header and contained elements. */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  background-color: var(--darkest);
+  color: var(--lightest);
+}
+
+header h1 {
+  font-size: 300%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+}
+
+nav a {
+  color: var(--lightest);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--lighter);
+}
+
+/* Following are the media queries for Responsive Design. Effort was made to only set or change necessary attributes.
+For the phone screen sizes a different layout was set to allow a better flow for the user. */
+/* Below is for large smartphones. Tablets (max-width: 992px) were found to be satisfactory with the full screen layout at this time. */
+@media screen and (max-width: 768px) {
+  /* The profile image and text sizes were decreased and the layout was changed to a more vertical flow to accommodate the smaller screen size. */
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 250%;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: auto;
+  }
+
+  nav a {
+    font-size: 90%;
+  }
+}
+
+/* Small smartphones */
+/* The layout from the large smartphones was found to be satisfactory for small smartphones as well. Sizes were adjusted to accommodate. */
+@media screen and (max-width: 576px) {
+  header h1 {
+    font-size: 200%;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  nav a {
+    font-size: 80%;
+  }
+}
