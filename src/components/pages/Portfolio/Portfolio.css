@@ -1,0 +1,134 @@
+/* Properties for the My Work sections. These include the flex, color, layout, as well as the
+divider between the aside and the interior section. */
+#MyWork {
+  display: flex;
+}
+
+#MyWork aside {
+  flex: 20%;
+  flex-wrap: wrap;
+  margin: 1%;
+  border-right-style: solid;
+  border-width: 4px;
+  border-color: var(--darkest);
+}
+
+/* This sets the flex and layout properties for the section containing the link cards, within the My Work section. */
+#MyWork section {
+  flex: 80%;
+  flex-wrap: wrap;
+  margin: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* This sets the properties for the first card in the section. It allows this card to appear larger than the others. */
+.largeCard {
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--lighter);
+  background-color: var(--darker);
+  margin-bottom: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* This sets the properties for all other cards. To be updated with future work. */
+.smallCard {
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--lighter);
+  background-color: var(--darker);
+  margin-bottom: 1%;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+}
+
+#MyWork img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* This sets location and colors for the titles of each work link. */
+.MyWorkTitles {
+  position: absolute;
+  flex-wrap: wrap;
+  top: 10px;
+  left: 10px;
+  padding: 1%;
+  color: var(--lightest);
+  background-color: var(--darkest);
+}
+
+.MyWorkTitlesGitHub {
+  position: absolute;
+  flex-wrap: wrap;
+  top: 10px;
+  right: 10px;
+  padding: 1%;
+  color: var(--lightest);
+  background-color: var(--darkest);
+}
+
+.MyWorkTitles:hover,
+.MyWorkTitlesGitHub:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-width: 4px;
+  border-color: var(--lightest);
+}
+
+a:hover {
+  color: var(--mid);
+}
+
+/* Following are the media queries for Responsive Design. Effort was made to only set or change necessary attributes.
+For the phone screen sizes a different layout was set to allow a better flow for the user. */
+/* Below is for large smartphones. Tablets (max-width: 992px) were found to be satisfactory with the full screen layout at this time. */
+@media screen and (max-width: 768px) {
+  /* The profile image and text sizes were decreased and the layout was changed to a more vertical flow to accomodate the smaller screen size. */
+  #MyWork {
+    flex-wrap: wrap;
+    font-size: 95%;
+  }
+
+  #MyWork aside {
+    flex: 100%;
+    padding: 1%;
+    border-bottom-style: double;
+    border-right-style: none;
+    text-align: center;
+  }
+
+  #MyWork section {
+    flex: 100%;
+    margin: 1%;
+    justify-content: center;
+  }
+
+  .largeCard {
+    width: 85%;
+  }
+
+  .smallCard {
+    margin: 1%;
+    width: 41.5%;
+  }
+}
+
+/* Small smartphones */
+/* The layout from the large smartphones was found to be satisfactory for small smartphones as well. Sizes were adjusted to accommodate. */
+@media screen and (max-width: 576px) {
+  .largeCard {
+    width: 80%;
+  }
+
+  .smallCard {
+    width: 39%;
+  }
+}

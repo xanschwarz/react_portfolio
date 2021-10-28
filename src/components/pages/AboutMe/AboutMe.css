@@ -8,7 +8,7 @@
   height: 600px;
 }
 
-/* Properties for the About Me and My Work sections. These include the flex, color, layout, as well as the
+/* Properties for the About Me sections. These include the flex, color, layout, as well as the
 divider between the aside and the interior section. */
 #AboutMe {
   display: flex;

@@ -7,6 +7,8 @@ import profilePic from './images/Profile_Pic.jpg';
 export default function About() {
   return (
     <div>
+      {/* The About Me section has an aside with the section title and an interior
+      section with a brief description of myself. */}
       <section className="myImage">
         <img
           src={profilePic}

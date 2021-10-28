@@ -59,3 +59,7 @@ body {
   background-color: var(--mid);
   color: var(--lightest);
 }
+
+a:hover {
+  color: var(--mid);
+}
