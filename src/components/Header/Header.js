@@ -51,16 +51,31 @@ export default function Header({ currentPage, handlePageChange }) {
       <nav>
         <ul>
           <li>
-            <a href="#AboutMe">About Me</a>
+            {/* Need to add classNames to style as active/inactive. */}
+            <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')}>
+              About Me
+            </a>
           </li>
           <li>
-            <a href="#MyPortfolio">My Portfolio</a>
+            {/* Need to add classNames to style as active/inactive. */}
+            <a
+              href="#MyPortfolio"
+              onClick={() => handlePageChange('Portfolio')}
+            >
+              My Portfolio
+            </a>
           </li>
           <li>
-            <a href="#ContactMe">Contact Me</a>
+            {/* Need to add classNames to style as active/inactive. */}
+            <a href="#ContactMe" onClick={() => handlePageChange('Contact')}>
+              Contact Me
+            </a>
           </li>
           <li>
-            <a href="#MyResume">My Resume</a>
+            {/* Need to add classNames to style as active/inactive. */}
+            <a href="#MyResume" onClick={() => handlePageChange('Resume')}>
+              My Resume
+            </a>
           </li>
         </ul>
       </nav>
