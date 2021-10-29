@@ -6,7 +6,9 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
-      <p>This is where you need to put your contact information.</p>
+      <p>
+        This is where my contact information will go with fields to contact me.
+      </p>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
