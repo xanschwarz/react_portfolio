@@ -1,3 +1,9 @@
+/*  -----------------------------------------------------------------------------------------------------------------------
+
+Text or icon links to GitHub and LinkedIn profiles, and link to profile on a third platform (Stack Overflow)
+
+-----------------------------------------------------------------------------------------------------------------------  */
+
 import React from 'react';
 import './Footer.css';
 

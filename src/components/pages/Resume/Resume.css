@@ -1,0 +1,60 @@
+#resume {
+  margin: 1% 5%;
+}
+
+#resume h1 {
+  text-align: center;
+  margin: 1% 0;
+  padding: 1% 0;
+  border-bottom-style: solid;
+  border-width: 4px;
+  border-color: var(--darkest);
+}
+
+#resume h2 {
+  text-align: center;
+  margin: 1% 0;
+  padding: 1% 0;
+  font-size: 150%;
+}
+
+#resume h3 {
+  margin: 1% 0;
+  padding: 1% 0;
+  font-size: 120%;
+}
+
+p,
+#summary,
+#proficiencies {
+  margin: 1%;
+}
+
+#summary {
+  margin-top: 2%;
+}
+
+#proficienciesLists {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+#proficienciesLists li {
+  list-style: disc;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.resumeLink {
+  display: block;
+  text-align: center;
+  margin: 1%;
+  text-decoration: none;
+  color: var(--lightest);
+}
+
+.resumeLink:hover {
+  font-weight: bold;
+  color: var(--darker);
+}

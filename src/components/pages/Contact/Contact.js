@@ -1,4 +1,10 @@
-// Taken from previous work. Hasn't been adapted yet.
+/*  -----------------------------------------------------------------------------------------------------------------------
+
+A contact form with fields for a name, an email address, and a message.
+Moving the cursor out of one of the form fields without entering text prompts a notification that this field is required.
+Entering text into the email address field prompts a notification if the user entered an invalid email address.
+
+-----------------------------------------------------------------------------------------------------------------------  */
 
 import React from 'react';
 

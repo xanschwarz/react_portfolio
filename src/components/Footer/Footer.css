@@ -16,7 +16,7 @@ footer ul {
 }
 
 footer a,
-li {
+footer li {
   color: var(--lightest);
   font-weight: bold;
   text-decoration: none;
