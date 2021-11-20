@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/xanschwarz/react_portfolio/static/css/main.28101b96.chunk.css",
+    "main.js": "/xanschwarz/react_portfolio/static/js/main.d38ce8bb.chunk.js",
+    "main.js.map": "/xanschwarz/react_portfolio/static/js/main.d38ce8bb.chunk.js.map",
+    "runtime-main.js": "/xanschwarz/react_portfolio/static/js/runtime-main.4d2a1ec6.js",
+    "runtime-main.js.map": "/xanschwarz/react_portfolio/static/js/runtime-main.4d2a1ec6.js.map",
+    "static/js/2.f857bdfe.chunk.js": "/xanschwarz/react_portfolio/static/js/2.f857bdfe.chunk.js",
+    "static/js/2.f857bdfe.chunk.js.map": "/xanschwarz/react_portfolio/static/js/2.f857bdfe.chunk.js.map",
+    "index.html": "/xanschwarz/react_portfolio/index.html",
+    "static/css/main.28101b96.chunk.css.map": "/xanschwarz/react_portfolio/static/css/main.28101b96.chunk.css.map",
+    "static/js/2.f857bdfe.chunk.js.LICENSE.txt": "/xanschwarz/react_portfolio/static/js/2.f857bdfe.chunk.js.LICENSE.txt",
+    "static/media/DayLeeLaugh.4e67651b.JPG": "/xanschwarz/react_portfolio/static/media/DayLeeLaugh.4e67651b.JPG",
+    "static/media/Profile_Pic.cf7b9f04.jpg": "/xanschwarz/react_portfolio/static/media/Profile_Pic.cf7b9f04.jpg",
+    "static/media/Resume.86cf34ee.pdf": "/xanschwarz/react_portfolio/static/media/Resume.86cf34ee.pdf",
+    "static/media/WeatherDashboard.0715493e.JPG": "/xanschwarz/react_portfolio/static/media/WeatherDashboard.0715493e.JPG",
+    "static/media/WorkPlanner.b59e79c5.JPG": "/xanschwarz/react_portfolio/static/media/WorkPlanner.b59e79c5.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d2a1ec6.js",
+    "static/js/2.f857bdfe.chunk.js",
+    "static/css/main.28101b96.chunk.css",
+    "static/js/main.d38ce8bb.chunk.js"
+  ]
+}
