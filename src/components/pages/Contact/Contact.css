@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  margin: 1% 0;
+  padding: 1% 0;
+  border-bottom-style: solid;
+  border-width: 4px;
+  border-color: var(--darkest);
+}
+
+.container {
+  width: 65%;
+  margin: 2% auto;
+  border-radius: 5px;
+  background-color: var(--darker);
+  padding: 1%;
+}
+
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid var(--darker);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type='submit'] {
+  width: 100%;
+  background-color: var(--darkest);
+  color: var(--lightest);
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+input[type='submit']:hover {
+  background-color: var(--lighter);
+  color: var(--darkest);
+}
+
+/* Below is for large smartphones. Tablets (max-width: 992px) were found to be satisfactory with the full screen layout at this time. */
+@media screen and (max-width: 768px) {
+}
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+  .container {
+    width: auto;
+    margin: 3%;
+    border-radius: 5px;
+    background-color: var(--darker);
+    padding: 2%;
+  }
+}

@@ -87,6 +87,21 @@ a:hover {
   color: var(--mid);
 }
 
+/* Card links needs to be reworked on smaller screens. Currently overlapping, covering content and partially unusable due to that. */
+@media screen and (max-width: 1200px) {
+  .smallCard .MyWorkTitlesGitHub {
+    position: absolute;
+    flex-wrap: wrap;
+    top: auto;
+    bottom: 10px;
+    right: auto;
+    left: 10px;
+    padding: 1%;
+    color: var(--lightest);
+    background-color: var(--darkest);
+  }
+}
+
 /* Following are the media queries for Responsive Design. Effort was made to only set or change necessary attributes.
 For the phone screen sizes a different layout was set to allow a better flow for the user. */
 /* Below is for large smartphones. Tablets (max-width: 992px) were found to be satisfactory with the full screen layout at this time. */
